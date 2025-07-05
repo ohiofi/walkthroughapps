@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Committed to our Jags App</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="Committed to our Jags app"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Committed to our Jags App" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="Committed to our Jags app"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-light rounded-bottom text-center">
+        <a class="navbar-brand mx-auto" href="#">Committed to our Jags App</a>
+      </nav>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <form
+            autocomplete="off"
+            id="my-form"
+            name="submit-to-google-sheet"
+            class="form-horizontal w-100"
+          >
+            <!--Make sure the form has the autocomplete function switched off:-->
+            <div class="input-group mt-2">
+              <div class="autocomplete w-100">
+                <input
+                  id="teacher-name-input"
+                  type="text"
+                  aria-label="Name"
+                  name="Teacher Name"
+                  placeholder="Teacher Name"
+                  class="w-100 form-control form-control-lg"
+                  required
+                />
+              </div>
+              <input
+                id="email-input"
+                type="text"
+                aria-label="Mail"
+                name="Mail"
+                class="w-50 border-0 text-right form-control form-control-lg d-none"
+                     readonly
+              />
+            </div>
+
+            <!--               Prioritize Relationships -->
+
+            <div class="input-group mt-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">🥇</span>
+              </div>
+              <input
+                id="prioritize-relationships-input"
+                name="Prioritize Relationships"
+                type="text"
+                placeholder="Prioritize Relationships"
+                class="form-control form-control-lg"
+                aria-label="Prioritize Relationships"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+
+            <!--               Clear Communication -->
+
+            <div class="input-group mt-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon2">🦜</span>
+              </div>
+              <input
+                id="clear-communication-input"
+                name="Clear Communication"
+                type="text"
+                placeholder="Clear Communication"
+                class="form-control form-control-lg"
+                aria-label="Clear Communication"
+                aria-describedby="basic-addon2"
+              />
+            </div>
+
+            <!--               Diverse Design -->
+
+            <div class="input-group mt-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">🎨</span>
+              </div>
+              <input
+                id="diverse-design-input"
+                name="Diverse Design"
+                type="text"
+                placeholder="Diverse Design"
+                class="form-control form-control-lg"
+                aria-label="Diverse Design"
+                aria-describedby="basic-addon3"
+              />
+            </div>
+
+            <!--               Facilitate Collaboration -->
+
+            <div class="input-group mt-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon4">👥</span>
+              </div>
+              <input
+                id="facilitate-collaboration-input"
+                name="Facilitate Collaboration"
+                type="text"
+                placeholder="Facilitate Collaboration"
+                class="form-control form-control-lg"
+                aria-label="Facilitate Collaboration"
+                aria-describedby="basic-addon4"
+              />
+            </div>
+
+            <!--               Meaningful Reflection -->
+
+            <div class="input-group mt-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon5">🔍</span>
+              </div>
+              <input
+                id="meaningful-reflection-input"
+                name="Meaningful Reflection"
+                type="text"
+                placeholder="Meaningful Reflection"
+                class="form-control form-control-lg"
+                aria-label="Meaningful Reflection"
+                aria-describedby="basic-addon5"
+              />
+            </div>
+
+            <!--               Targeted Intervention -->
+
+            <div class="input-group mt-0">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon6">🎯</span>
+              </div>
+              <input
+                id="targeted-intervention-input"
+                name="Targeted Intervention"
+                type="text"
+                placeholder="Targeted Intervention"
+                class="form-control form-control-lg"
+                aria-label="Targeted Intervention"
+                aria-describedby="basic-addon6"
+              />
+            </div>
+
+            <div class="input-group mt-0">
+              <div class="input-group-prepend">
+                <select
+                  id="admin-name-input"
+                  name="Admin Name"
+                  class="form-control  form-control-lg"
+                  required
+                        onchange="saveAdminName()"
+                >
+                  <option value="">ADMIN NAME</option>
+                  <option value="Mr. Warfield">Mr. Warfield</option>
+                  <option value="Mr. Hamilton">Mr. Hamilton</option>
+                  <option value="Dr. Turney">Dr. Turney</option>
+                  <option value="Mr. Walton">Mr. Walton</option>
+                </select>
+              </div>
+              <input
+                id="comment-input"
+                name="Comment"
+                type="text"
+                placeholder="Comment"
+                class="form-control  form-control-lg"
+              />
+            </div>
+            <div class="input-group mt-5 pt-5">
+              <div id="form_alerts">
+                <div id="working-alert" class="alert alert-light" role="alert">
+                  <div
+                    id="working-spinner"
+                    class="spinner-border"
+                    role="status"
+                  >
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                  Working...
+                </div>
+
+                <div id="success-alert" class="alert alert-success">
+                  <strong>Success!</strong> Message sent successfully.
+                </div>
+                <div id="warning-alert" class="alert alert-warning">
+                  <strong>Oops!</strong> Message NOT sent
+                </div>
+              </div>
+              <button
+                id="send-button"
+                type="submit"
+                class="btn btn-primary btn-lg btn-block"
+              >
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <script></script>
+  </body>
+</html>
